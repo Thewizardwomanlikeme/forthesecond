@@ -1,1 +1,1 @@
-SELECT AVG(energy) AS average_energy FROM songs;
+SELECT title, year FROM movies WHERE title LIKE 'Harry Potter%' ORDER BY year;

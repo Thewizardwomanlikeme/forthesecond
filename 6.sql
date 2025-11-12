@@ -1,1 +1,2 @@
-SELECT name FROM songs WHERE artist_id = (SELECT id FROM artists WHERE name = 'Post Malone');
+SELECT AVG(rating) AS average_rating FROM ratings WHERE movie_id IN
+(SELECT id FROM movies WHERE year = 2012);

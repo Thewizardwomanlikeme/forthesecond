@@ -1,1 +1,1 @@
-SELECT name FROM songs ORDER BY tempo;
+SELECT birth as birth_year FROM people WHERE name = 'Emma Stone';
