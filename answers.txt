@@ -1,0 +1,19 @@
+Q1. If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+answer1: If songs.db contains the top 100 songs of one listener from 2018, then taking the average values
+of danceability, energy and valence of these songs would give us the audio aura of the listener. For example,
+if the average values turns out to be high then the listener might have a taste for high energy music and like
+Mystic Michaela we could make it as a swirling gradient of orange and more colours where each colour represents
+a perticular mood.
+
+Q2.Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+answer2. There are multiple other factors other than danceability, energy and valence which determine what kind
+of music is preferred by a listener like the lyrics, tempo or there mood at that time of the day. By considering
+a limited number of factors or data we might not identify the actuall 'aura' of the person. Also if we got an average
+which was neither too high (high energy and cheerful type) nor too low (moody and sad type), then the mood of such
+of songs of such a listener would become unclear.
+So instaed of considering only the average values of danceability, energy and valence of the top 100 songs of the
+listener, we could also take into consideration the type of lyrics each song has, the tempo and maybe even the
+speechiness and thus like Mystic Michaela create the aura spectrum by assigning a color to each mood. Incase a listener listened
+to songs of different moods we could assign a weight percetage for each mood and make the final product is a swirling gradient of color.
